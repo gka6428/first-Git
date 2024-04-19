@@ -41,6 +41,19 @@ def read_number(num) :
         digit3 = (num - (digit2*10 + digit1)) / 100 # ex) num == 123, (123 - (2*10 + 3)) / 100 = 1
         return f'{read_single_digit(digit3)} {read_single_digit(digit2)} {read_single_digit(digit1)}'
      
+'''
+def read_number(n) :
+    d1 = n % 10
+    n //= 10
+    d10 = n % 10
+    n //= 10
+    read_single_digit(n)
+    read_single_digit(d10)
+    read_single_digit(d11)
+
+    num = input
+    read_number(num)
+'''
 # 주 프로그램부
 decimal_number = int(input('세 자리 정수 입력 : ')) 
 

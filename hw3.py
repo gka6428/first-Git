@@ -1,4 +1,10 @@
 from hw3modules import get_fixed_price as getFP
+'''
+# 정가 계산기 at hw3modules
+def get_fixed_price(sale_rate, sale_price) :
+    fixed_price = sale_price * 100 / (100 - sale_rate)
+    return fixed_price
+'''
 
 # 사용자 정의 함수부
 def ask_sale_price(product_name) : # 매개변수 자료형은 문자열이라 가정함
