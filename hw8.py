@@ -3,7 +3,7 @@
 # 사용자 정의 함수부
 def search(dic, productName) : # index() 메서드
     #(1)
-    # if key not in dic:
+    # if productName not in dic:
     #     return f'장바구니에 {productName}은(는) 없습니다.'
     
     #(2)
